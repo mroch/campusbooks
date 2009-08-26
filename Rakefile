@@ -5,10 +5,12 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "campusbooks"
-    gem.summary = %Q{TODO}
-    gem.email = "mroch@cmu.edu"
+    gem.summary = %Q{CampusBooks API for Ruby}
+    gem.description = %Q{A Ruby library for accessing the CampusBooks.com API}
+    gem.email = "marshall@mroch.com"
     gem.homepage = "http://github.com/mroch/campusbooks"
     gem.authors = ["Marshall Roch"]
+    gem.add_dependency 'httparty'
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
 rescue LoadError
