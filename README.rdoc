@@ -1,0 +1,7 @@
+= campusbooks
+
+Description goes here.
+
+== Copyright
+
+Copyright (c) 2009 Marshall Roch. See LICENSE for details.
