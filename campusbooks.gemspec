@@ -2,15 +2,15 @@
 
 Gem::Specification.new do |s|
   s.name = %q{campusbooks}
-  s.version = "0.0.0"
+  s.version = "0.1.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Marshall Roch"]
-  s.date = %q{2009-08-26}
+  s.date = %q{2009-08-27}
   s.description = %q{A Ruby library for accessing the CampusBooks.com API}
   s.email = %q{marshall@mroch.com}
   s.extra_rdoc_files = ["README.rdoc", "LICENSE"]
-  s.files = ["README.rdoc", "lib/campusbooks", "lib/campusbooks/base.rb", "lib/campusbooks/book.rb", "lib/campusbooks/offer.rb", "lib/campusbooks.rb", "test/base_test.rb", "test/book_test.rb", "test/offer_test.rb", "test/test_helper.rb", "LICENSE"]
+  s.files = ["README.rdoc", "VERSION.yml", "lib/campusbooks", "lib/campusbooks/base.rb", "lib/campusbooks/book.rb", "lib/campusbooks/offer.rb", "lib/campusbooks.rb", "lib/isbn", "lib/isbn/LICENCE", "lib/isbn/README", "lib/isbn/tools.rb", "test/base_test.rb", "test/book_test.rb", "test/offer_test.rb", "test/test_helper.rb", "LICENSE"]
   s.has_rdoc = true
   s.homepage = %q{http://github.com/mroch/campusbooks}
   s.rdoc_options = ["--inline-source", "--charset=UTF-8"]
