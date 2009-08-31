@@ -11,6 +11,7 @@ begin
     gem.homepage = "http://github.com/mroch/campusbooks"
     gem.authors = ["Marshall Roch"]
     gem.add_dependency 'httparty'
+    gem.add_dependency 'isbn-tools'
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
 rescue LoadError
